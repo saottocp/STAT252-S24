@@ -2,9 +2,11 @@
 title: "STAT 252"
 subtitle: 'Week 1: Review'
 date: "2024-04-01"
-output: html
+format: html
 editor: visual
 ---
+
+I am checking to see if version control via git now works.
 
 ## Day Two
 
