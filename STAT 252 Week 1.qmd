@@ -6,9 +6,7 @@ format: html
 editor: visual
 ---
 
-I am checking to see if version control via git now works.
-
-## Day Two
+# Day Two
 
 **Purpose of Statistics**: Make inferences about a population from a sample
 
@@ -154,7 +152,7 @@ Observational Unit:
 
 ### Let's Practice
 
-#### State the variable of interest and its type (Categorical, Categorical Binary, Quantitative)
+#### State the variable of interest and its type (categorical, categorical binary, quantitative).
 
 1.  **How many students at Cal Poly participate in sports?**
 
@@ -207,7 +205,9 @@ Observational Unit:
 
 ------------------------------------------------------------------------
 
-## Day Three
+\newpage
+
+# Day Three
 
 **Purpose of Statistics**: Make inferences about a population from a sample
 
@@ -215,52 +215,153 @@ Observational Unit:
 
 ### Parameter v. Statistics
 
-Proportion vs. Mean
+\_\_\_\_\_\_\_\_\_\_\_\_: Numbers that summarize data for an entire population
 
-Parameter vs. Statistic
+\_\_\_\_\_\_\_\_\_\_\_\_: Numbers that summarize data from a sample
 
-Symbols
+#### Why are samples necessary in statistics?
+
+\vspace{3em}
+
+#### Can a parameter ever be known?
+
+\vspace{3em}
+
+For the purpose of this class, we will primarily focus on 3 measures, each with a unique symbol for their parameter and statistic. Each measure also has a certain variable type associated with it:
+
+| Measure            | Parameter | Statistic | Variable Type |
+|--------------------|-----------|-----------|---------------|
+| Mean               |           |           |               |
+| Proportion         |           |           |               |
+| Standard Deviation |           |           |               |
+
+### Let's Practice
+
+#### Fill in the missing elements.
+
+1.  **Measure: Sample Mean**
+
+-   Parameter or Statistic? \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+-   Symbol? \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+2.  **Measure: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+
+-   Parameter or Statistic? \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+-   Symbol? *s*
+
+3.  **Measure: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Proportion**
+
+-   Parameter or Statistic? Parameter
+
+-   Symbol?
+
+------------------------------------------------------------------------
 
 ### Types of Study Designs
 
-Observational Study
+**Observational Study**: A study in which the researcher collects data through observations without any manipulation of participants
 
-Experimental Design
+#### For example...
 
-Importance of Randomness
+1.  A researcher observes study habits and time management behaviors of college students in a library setting to understand factors influencing academic performance.
 
-### Review of Statistical Inference
+2.  A psychologist conducts observations in a college cafeteria to analyze eating habits and food choices among students, investigating factors such as social influences and dietary preferences.
 
-Two Types (goals of each)
+**Experimental Study**: A study in which the researcher actively manipulates participants and splits them into a control group and treatment group(s)
+
+**Control Group**: Participants who do not receive the experimental treatment
+
+#### For example...
+
+1.  A researcher examines the effects of different study environments on academic performance by randomly assigning college students to study either in a quiet library or a bustling café and comparing their subsequent test scores.
+
+2.  An education researcher investigates the impact of personalized feedback on essay writing skills by randomly assigning students to receive either generic or tailored feedback on their writing assignments and assessing improvements in writing quality.
+
+### Let's Practice
+
+#### State whether the situation best describes an observational or experimental study.
+
+1.  A researcher examines the relationship between caffeine consumption and productivity levels in employees at a workplace by reviewing employee performance reports and coffee logs.
+
+-   Experimental or Observational Study?
+
+2.  A group of scientists studies the relationship between temperature variations and crop yields in agricultural regions by exposing different test plants to various conditions in the lab.
+
+-   Experimental or Observational Study?
+
+3.  A researcher investigates the impact of music genres on mood regulation in listeners by collecting survey data from Spotify users.
+
+-   Experimental or Observational Study?
 
 ------------------------------------------------------------------------
 
-## Async Work
+### Randomness
 
-### Video 1: One-Population Hypothesis Test (Mean, Proportion)
+**Random Selection**: Process by which participants are chosen for a study by chance
 
-On top of basic instruction / questions, I will include space for your R output, visualization, and analysis
+#### For example...
 
-### Video 2: Confidence Interval (Mean, Proportion)
+1.  A professor selects students from a class roster to participate in a research study on sleep patterns by assigning each student a unique identification number and using a random number generator to select participants.
 
-On top of basic instruction / questions, I will include space for your R output, visualization, and analysis
+2.  A university divides its student body into distinct groups based on academic programs. Then, it randomly picks students from each group for its survey on student satisfaction.
 
-### Video 3: Types of Errors (I, II), Types of Distributions, and Confidence Interval Manipulations (widening, sample size, etc)
+**Random Assignment**: Process by which the treatment is given to the observational unit by chance
+
+#### For example...
+
+1.  In a clinical trial testing the effectiveness of a new medication for migraine headaches, participants are randomly assigned to either the treatment group, where they receive the medication, or the control group, where they receive a placebo.
+
+2.  In an educational study examining the impact of different teaching methods on student learning outcomes, classrooms are randomly assigned to one of several experimental conditions, such as traditional lecture-based instruction or active learning strategies.
+
+#### What is the purpose of each aspect of randomness? (hint: confounding variables & bias)
+
+\vspace{3em}
 
 ------------------------------------------------------------------------
 
-### Note: The content below could either be deleted other than the glossary once I put everything together or kept as a review of the week for students
+### Preview of Statistical Inference
 
-## Statistical Techniques
+**Statistical Inference**: Statistical technique that draws a conclusion about a population parameter based on a sample statistic
 
-#### 1. One-Population Hypothesis Test
+#### Two Types:
 
--   If TS \< -3.5 OR TS \> 3.5, we reject H~0~
--   If p-value \< 0.1, we reject H~0~ (calculator needed to find p-value)
--   Type I Error: Rejecting a null hypothesis that is true
--   Type II Error: Failing to reject a null hypothesis that is false
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_: Statistical inference that assesses the plausibility of a particular claim about the parameter
 
-#### <u>One-Population Mean Hypothesis Test</u>
+#### For example...
+
+1.  A boss claims that it takes its employees 10 minutes, on average, to complete a particular task. To verify this claim, a random sample of 30 employees is selected, and their task completion times are recorded.
+
+\vspace{2em}
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_: Statistical inference that estimates the value of a parameter with a range of plausible values
+
+#### For example...
+
+1.  A manufacturing company has recently introduced a new product to the market and wants estimate its population mean defect rate. To achieve this, the company randomly selects a sample of 200 units from their production line.
+
+#### 4 Techniques:
+
+1.  Hypothesis Test for Population Mean $\mu$
+
+2.  Hypothesis Test for Population Proportion *p*
+
+3.  Confidence Interval for Population Mean $\mu$
+
+4.  Confidence Interval for Population Proportion *p*
+
+------------------------------------------------------------------------
+
+\newpage
+
+# Video 1: One-Population Hypothesis Test (Mean, Proportion)
+
+**Purpose of Statistics**: Make inferences about a population from a sample
+
+------------------------------------------------------------------------
+
+### One-Population Mean Hypothesis Test
 
 **Assumptions:** Data is random; observations are independent
 
@@ -279,6 +380,42 @@ Hypotheses for Two-Tailed Test:
     -   Symbols: H~1~: $\mu$ $\neq$ $\mu$~o~
 
 Test Statistic: $TS = \frac{\bar{x} - \mu}{\frac{s}{\sqrt{n}}}$
+
+Note:
+
+-   If TS \< -3.5 OR TS \> 3.5, we reject H~0~
+
+-   If p-value \< 0.1, we reject H~0~ (calculator needed to find p-value)
+
+#### For Example...
+
+1.  A tech company asserts that the average battery life of their new smartphone model is different from the industry standard of 20 hours. A sample of 100 smartphones is tested, revealing an average battery life of 19.5 hours with a standard deviation of 2.5 hours.
+
+Statistical Question?
+
+\vspace{3em}
+
+Parameter of Interest?
+
+\vspace{3em}
+
+Null Hypothesis?
+
+\vspace{3em}
+
+Alternative Hypothesis?
+
+\vspace{3em}
+
+Test Statistic?
+
+\vspace{5em}
+
+Conclusion?
+
+\vspace{3em}
+
+------------------------------------------------------------------------
 
 #### One-Population Proportion Hypothesis Test
 
@@ -300,14 +437,122 @@ Hypotheses for Two-Tailed Test:
 
 Test Statistic: $TS = \frac{\hat{p} - p_o}{\sqrt{\frac{p_o(1 - p_o)}{n}}}$
 
-#### 2. One-Population Confidence Intervals
+Note:
+
+-   If TS \< -3.5 OR TS \> 3.5, we reject H~0~
+
+-   If p-value \< 0.1, we reject H~0~ (calculator needed to find p-value)
+
+#### For example...
+
+1.  A company proposes that 30% of its customers are satisfied with its customer service. A random sample of 200 customers is surveyed, and 100 express satisfaction.
+
+Statistical Question?
+
+\vspace{3em}
+
+Parameter of Interest?
+
+\vspace{3em}
+
+Null Hypothesis?
+
+\vspace{3em}
+
+Alternative Hypothesis?
+
+\vspace{3em}
+
+Test Statistic?
+
+\vspace{5em}
+
+Conclusion?
+
+\vspace{3em}
+
+------------------------------------------------------------------------
+
+### Now, in R! (**Dr. Williams**)
+
+#### Output
+
+#### Visualization
+
+#### Analysis
+
+------------------------------------------------------------------------
+
+### Let's Practice (Complete on your own and come to Learning Hours if questions!)
+
+1.  A fitness tracker company claims that the average number of steps taken per day by users wearing their device is different from the industry standard of 10,000 steps. A sample of 150 users is selected, and their average daily step count is found to be 9,600 steps with a standard deviation of 1,200 steps.
+
+Statistical Question?
+
+\vspace{3em}
+
+Parameter of Interest?
+
+\vspace{3em}
+
+Null Hypothesis?
+
+\vspace{3em}
+
+Alternative Hypothesis?
+
+\vspace{3em}
+
+Test Statistic?
+
+\vspace{5em}
+
+Conclusion?
+
+\vspace{3em}
+
+2.  An online retailer asserts that 40% of its customers make repeat purchases within one month of their initial purchase. A sample of 500 customers is surveyed, and 220 of them make repeat purchases within the specified time frame.
+
+Statistical Question?
+
+\vspace{3em}
+
+Parameter of Interest?
+
+\vspace{3em}
+
+Null Hypothesis?
+
+\vspace{3em}
+
+Alternative Hypothesis?
+
+\vspace{3em}
+
+Test Statistic?
+
+\vspace{5em}
+
+Conclusion?
+
+\vspace{3em}
+
+------------------------------------------------------------------------
+
+\newpage
+
+# Video 2: Confidence Interval (Mean, Proportion)
+
+**Purpose of Statistics**: Make inferences about a population from a sample
+
+------------------------------------------------------------------------
+
+### One-Population Mean Confidence Interval
 
 -   Critical Value: Number of standard errors from the parameter needed to achieve a certain level of confidence (CV)
 -   Margin of Error: ME = CV \* SE
 -   Upper Bound: UB = PE + ME
 -   Lower Bound: LB = PE - ME
-
-#### <u>One-Population Mean Confidence Interval</u>
 
 ##### **Assumptions:** Data is random; observations are independent
 
@@ -315,96 +560,215 @@ Point Estimate: $\bar{x}$
 
 Standard Error: ${\frac{s}{\sqrt{n}}}$
 
-#### One-Population Proportion Confidence Interval
+#### For example...
 
-**Assumptions:** Data is random; *np* $\geq$ 10 & *n*(1 - *p*) $\geq$ 10
+1.  An online retailer wants to estimate the average amount spent by customers in a week. A random sample of 100 customers shows an average spending of \$150 with a standard deviation of \$30. Calculate a 95% confidence interval for the population mean. (The critical value for a 95% confidence interval is 1.96)
+
+Statistical Question?
+
+\vspace{3em}
+
+Parameter of Interest?
+
+\vspace{3em}
+
+Margin of Error?
+
+\vspace{4em}
+
+Upper Bound?
+
+\vspace{4em}
+
+Lower Bound?
+
+\vspace{4em}
+
+Interpretation of Confidence Interval?
+
+\vspace{3em}
+
+------------------------------------------------------------------------
+
+### One-Population Proportion Confidence Interval
+
+-   Critical Value: Number of standard errors from the parameter needed to achieve a certain level of confidence (CV)
+-   Margin of Error: ME = CV \* SE
+-   Upper Bound: UB = PE + ME
+-   Lower Bound: LB = PE - ME
+
+##### **Assumptions:** Data is random; *np* $\geq$ 10 & *n*(1 - *p*) $\geq$ 10
 
 Point Estimate: $\hat{p}$
 
 Standard Error: ${\sqrt{\frac{\hat{p}(1 - \hat{p})}{n}}}$
 
-## Other Key Concepts
+#### For example...
 
-#### 1. Types of Distributions
+1.  A company wants to estimate the proportion of customers who prefer their new product packaging. A survey of 200 customers shows that 120 of them prefer the new packaging. Calculate a 90% confidence interval for the population proportion. (The critical value for a 90% confidence interval is 1.6449)
 
--   If *n* \< 30, s is given, or nothing is stated about the distribution, use:
-    -   t-distribution
--   Otherwise, use:
-    -   z-distribution
+Statistical Question?
 
-#### 2. Study Designs
+\vspace{3em}
 
--   Types:
-    -   Experiment
-    -   Observational Study
--   Randomness for Experiments:
-    -   Random Selection
-    -   Random Assignment (typically incorporates a control group)
+Parameter of Interest?
 
-## Glossary
+\vspace{3em}
 
--   Alternative Hypothesis: Statement that proposes a statistically significant relationship or difference exists in the data
+Margin of Error?
 
--   Categorical Variable: Variable that takes on three or more category designations
+\vspace{4em}
 
--   Categorical Binary Variable: Variable that takes on two category designations
+Upper Bound?
 
--   Confidence Interval: Statistical inference that estimates the value of a parameter with a range of plausible values
+\vspace{4em}
 
--   Control Group: Participants who do not receive the experimental treatment
+Lower Bound?
 
--   Experimental Study: A study in which the researcher actively manipulates participants and splits them into a control group and treatment group(s)
+\vspace{4em}
 
--   Explanatory Variable: Variable that explains variation in the response variable
+Interpretation of Confidence Interval?
 
--   Hypothesis Test: Statistical inference that assesses the plausibility of a particular claim about the parameter
+\vspace{3em}
 
--   Lower Bound: Lower limit of plausible values a parameter within a confidence interval can take on
+------------------------------------------------------------------------
 
--   Mean: A measure of center for quantitative variables representing the average of a data set that takes on parameter $\mu$ and statistic $\bar{x}$
+### Now, in R! (**Dr. Williams**)
 
--   Null Hypothesis: Statement that proposes no statistically significant relationship or difference exists in the data
+#### Output
 
--   Observational Study: A study in which the researcher collects data through observations without any manipulation of participants
+#### Visualization
 
--   Observational Unit: A single person, place, or thing within data
+#### Analysis
 
--   Parameter: Numbers that summarize data for an entire population
+------------------------------------------------------------------------
 
--   Point Estimate: A sample statistic collected for statistical inference
+### Let's Practice (Complete on your own and come to Learning Hours if questions!)
 
--   Population: The entire group of study from which a sample is drawn
+1.  Estimate the average number of hours college students spend studying per week. A random sample of 50 students shows an average study time of 15 hours with a standard deviation of 3 hours. Calculate a 95% confidence interval for the population mean. (The critical value for a 95% confidence interval is 1.96)
 
--   Proportion: The ratio of the frequency of a specific level of a categorical (binary) variable to the total count of the categorical (binary) variable that takes on parameter *p* and statistic $\hat{p}$
+Statistical Question?
 
--   p-value: Probability of observing sample data given the null hypothesis is true
+\vspace{3em}
 
--   Quantitative Variable: Variable that takes on a continuous range of numerical values
+Parameter of Interest?
 
--   Randomness: Lack of predictability and patterns in events
+\vspace{3em}
 
--   Random Assignment: Process by which the treatment is given to the observational unit by chance to reduce confounding variables
+Margin of Error?
 
--   Random Selection: Process by which participants are chosen for a study by chance to reduce bias
+\vspace{4em}
 
--   Response Variable: Variable of interest that the outcome of a study measures
+Upper Bound?
 
--   Sample: Part of the population from which data is gathered
+\vspace{4em}
 
--   Sample Size: The total number of observational units in a sample
+Lower Bound?
 
--   Standard Deviation: A measure of variability for quantitative variables representing the average distance between each value of a quantitative variable and its mean that takes on parameter $\sigma$ and statistic *s*
+\vspace{4em}
 
--   Standard Error: A measure of variability for statistical inferences representing the average distance between each sample statistic from its population parameter
+Interpretation of Confidence Interval?
 
--   Statistic: Numbers that summarize data from a sample
+\vspace{3em}
 
--   Statistical Inference: Statistical technique that draws a conclusion about a population parameter based on a sample statistic
+2.  Estimate the proportion of college students who prefer fast food over home-cooked meals. A survey of 250 college students shows that 180 of them prefer fast food. Calculate a 99% confidence interval for the population proportion. (The critical value for a 99% confidence interval is 2.575)
 
--   Statistical Question: A question that can be answered by collecting data that varies
+Statistical Question?
 
--   Test Statistic: A measure within hypothesis testing representing the number of standard errors a sample statistic is away from the population parameter
+\vspace{3em}
 
--   Upper Bound: Upper limit of plausible values a parameter within a confidence interval can take on
+Parameter of Interest?
 
--   Variable: A characteristic that can be measured and assume different values
+\vspace{3em}
+
+Margin of Error?
+
+\vspace{4em}
+
+Upper Bound?
+
+\vspace{4em}
+
+Lower Bound?
+
+\vspace{4em}
+
+Interpretation of Confidence Interval?
+
+\vspace{3em}
+
+---
+
+\newpage
+
+# Video 3: Types of Errors (I, II), Types of Distributions, and Confidence Interval Manipulations
+
+**Purpose of Statistics**: Make inferences about a population from a sample
+
+---
+
+### Hypothesis Test Errors
+
+**Type I Error**: Rejecting a null hypothesis that is true
+
+**Type II Error**: Failing to reject a null hypothesis that is false
+
+![](https://www.bachelorprint.com/wp-content/uploads/2023/07/Type-I-and-Type-II-Errors-explanation.jpg)
+
+#### For example...
+
+1. In a clinical trial, if the company wrongly concludes that a new drug reduces blood pressure when it doesn't, it's a Type I error. This error leads to wasted resources, unnecessary side effects, and misleading conclusions.
+
+2. If a quality control test incorrectly accepts a batch of products as meeting the quality standards when, in fact, they do not meet the standards, this would be a Type II error. As a result, defective products may enter the market, leading to potential customer dissatisfaction, product recalls, and damage to the company's reputation.
+
+### Let's Practice
+
+#### State whether the conclusion could entail a Type I or Type II Error.
+
+1. Based on the results of the entrance exam, an admission office concludes that a student is likely to succeed in their program. However, it's later discovered that the student struggles academically and eventually drops out of the program.
+
+Type of Error:
+
+2. After analyzing the data from a semester-long study, a professor concludes that the new teaching method significantly improves student performance. However, upon further investigation, it's discovered that the conclusion was based on a statistical error, and there is no significant improvement in student performance with the new teaching method.
+
+Type of Error: 
+
+---
+
+### Types of Distributions
+
+If *n* \< 30, s is given, or nothing is stated about the distribution, use:
+    
+* t-distribution
+
+Otherwise, use:
+    
+* z-distribution
+
+---
+
+### Confidence Interval Manipulations
+
+#### Factors that affect Confidence Intervals:
+
+- Sample size *n*
+
+- Standard Deviation *s*
+
+- Standard Error
+
+- Level of Confidence
+
+### Let's Practice
+
+#### State whether the confidence interval shrinks or widens from a change to one of the factors.
+
+1. What happens to the interval as *n* increases?
+
+2. What happens to the interval as level of confidence decreases?
+
+3. What happens to the interval as standard error increases?
+
+4. What happens to the interval as *s* decreases?
+
+---
